@@ -11,3 +11,8 @@ def get_openai_api_key():
     load_env()
     openai_api_key = os.getenv("OPENAI_API_KEY")
     return openai_api_key
+
+def get_azure_openai_api_key():
+    load_env()
+    azure_openai_api_key = os.getenv("AZURE_OPENAI_QA_API_KEY")
+    return azure_openai_api_key
