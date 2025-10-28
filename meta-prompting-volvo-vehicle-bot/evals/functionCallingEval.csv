@@ -1,0 +1,3 @@
+conversation|expected_function|expected_inputs
+"[{\""role\"":\""user\"",\""content\"":\""I need help with my car.\""}]"|none|none
+"[{\""role\"":\""user\"",\""content\"":\""I need help with my car.\""},{\""role\"":\""assistant\"",\""content\"":\""{\""question\"":\""Can you describe what the problem is?\"",\""type\"":\""needsClarification\""}\""},{\""role\"":\""user\"",\""content\"":\""I need car dimensions.\""}]"|none|none
